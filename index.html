@@ -1,59 +1,119 @@
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="styles.css/fonts/fonts.css">
-    <link rel="stylesheet" href="styles.css/global.css">
-    <link rel="stylesheet" href="styles.css/style.css">
-</head>
+    <link rel="stylesheet" href="styles.css/fonts/fonts.css" />
+    <link rel="stylesheet" href="styles.css/global.css" />
+    <link rel="stylesheet" href="styles.css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header body__paddings">
-        <nav class="header__menu">
-            <ul class="header__links-list header__list">
-                <li class="header__links-list-item header__links-list-item_no-bullit">
-                   <a class="header__link header__link_active" href=""> главная</a>
-                </li>
-                <li class="header__links-list-item">
-                   <a class="header__link " href="">посмотреть лоты</a> 
-                </li>
-                <li class="header__links-list-item">
-                   <a class="header__link " href="">об аукционе</a> 
-                </li>
-            </ul>
-        </nav>
+      <nav class="header__menu">
+        <ul class="header__links-list header__list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active" href=""> главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
 
-        <a class="header__logo" href="">
-            <img class="header__logo-image" src="./images/logo.svg" alt="logo">
-        </a>
-<address class="address header__address">
-    <a class="address__phone" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-    <a class="address__mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-    <a class="address__location"  href=""><br> наб. Принсенграхт 263- <br> 265, Амстердам</a>
-</address>
+      <a class="header__logo" href="">
+        <img class="header__logo-image" src="./images/logo.svg" alt="logo" />
+      </a>
+      <address class="address header__address">
+        <a class="address__phone" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+        <a class="address__mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__location" href=""
+          ><br />
+          наб. Принсенграхт 263- <br />
+          265, Амстердам</a
+        >
+      </address>
     </header>
 
     <main>
-        <section class="cover">
-            <div class="overlay"></div>
-            <div class="cover__content">
-                <h1 class="cover__title ">
-                    <span class="aligned-text">ОНО</span>
-                    <span class="aligned-text-center">ТЕБЕ</span>
-                    <span class="aligned-text-left ">НАД<span class="no-letter-spacing"></span>О</span>
-                </h1>
-                <div class="cover__description">
-                    <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
-                    <button class="cover__bet-button">Сделать ставку</button>
-                </div>
-            </div>
-        </section>
+      <section class="cover">
+        <div class="overlay"></div>
+        <div class="cover__content">
+          <h1 class="cover__title">
+            <span class="aligned-text">ОНО</span>
+            <span class="aligned-text-center">ТЕБ<span class="no-letter-spacing">Е</span></span>
+            <span class="aligned-text-right">НАД<span class="no-letter-spacing">О</span></span>
+          </h1>
+          <div class="cover__description">
+            <h2 class="cover__description-text">
+              Аукцион вещей, в которые никто не верил
+            </h2>
+            <button class="cover__bet-button">Сделать ставку</button>
+          </div>
+        </div>
+      </section>
     </main>
+    <section class="lots">
+      <h3 class="lots__heading">Лоты</h3>
+      <ul class="lots__card-list">
 
+        <li class="lots__card-list-item card_type_film">
+            <div class="overlay"></div>
+            <div class="card__description">
+          <a class="card__link" href=""
+            ><h4 class="card__title">
+              Фильм режиссёра, который бросил киношколу
+            </h4>
+          </a>
+            <p class="card__text">
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </p>
+        </div>
+        </li>
 
-</body>
+        <li class="lots__card-list-item card_type_book">
+            <div class="overlay"></div>
+            <div class="card__description">
+          <a class="card__link" href=""
+            ><h4 class="card__title">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </h4>
+          </a>
+            <p class="card__text">
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+              переходами на древнеанглийский. В ней одновременно рассказывается
+              о 16 июня 1904 года и об истории литературы, начиная с античных
+              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
+              бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
+        </div>
+        </li>
 
+        <li class="lots__card-list-item card_type_picture">
+            <div class="overlay"></div>
+            <div class="card__description">
+          <a class="card__link" href=""
+            ><h4 class="card__title">
+              Картина, которую повторит даже 5-летний сын маминой подруги
+            </h4>
+          </a>
+            <p class="card__text">
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+              Сколько бы вы на такое поставили, если бы не знали, что это — одна
+              из революционных работ Кандинского?
+            </p>
+        </div>
+        </li>
+
+      </ul>
+
+      <a class="card-link" href="">посмотреть больше</a>
+    </section>
+  </body>
 </html>
