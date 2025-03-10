@@ -244,8 +244,8 @@
 }
 
 .about__logo-image {
-  width: 148px;
-  height: 114px;
+  max-width: 148px;
+  max-height: 114px;
 }
 
 .about__title {
@@ -303,6 +303,6 @@
 }
 
 .footer__social-icon {
-  width: 48px;
-  height: 48px;
+  max-width: 48px;
+  max-height: 48px;
 }
